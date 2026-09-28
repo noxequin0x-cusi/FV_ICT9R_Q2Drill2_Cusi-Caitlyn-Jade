@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            background-color: rgb(231, 213, 200);
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 4px 10px
+            rgba(0,0,0,0.1);
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+        input[type="text"], select, textarea, button{
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rate a Movie</h1>
+        <br>
+        <p>Rate one of the given movies.</p>
+    </header>
+    <br>
+    <section>
+        <form action="">
+            <img src="https://emojiisland.com/cdn/shop/products/Star_Emoji_grande.png?v=1571606063" alt="logo">
+            <br>
+            <label for="movie">movie title</label>
+            <input type="text" id="movie" name="movie" placeholder="enter here">
+
+            <br>
+            <label for="genre">Genres</label>
+            <input type="radio" id="genre1" name="genre" value="action">
+            <label for="genre1">action</label>
+
+            <input type="radio" id="genre2" name="genre" value="comedy">
+            <label for="genre2">comedy</label>
+
+            <input type="radio" id="genre3" name="genre" value="drama">
+            <label for="genre3">drama</label>
+
+            <input type="radio" id="genre4" name="genre" value="romance">
+            <label for="genre4">romance</label>
+
+            <input type="radio" id="genre5" name="genre" value="horror">
+            <label for="genre5">horror</label>
+
+            <br>
+            <label for="rating">rating</label>
+            <br>
+            <input type="radio" id="rate1" name="rate" value="star1">
+            <label for="rate1">⭐</label>
+
+             <input type="radio" id="rate2" name="rate" value="star2">
+            <label for="rate2">⭐</label>
+
+             <input type="radio" id="rate3" name="rate" value="star3">
+            <label for="rate3">⭐</label>
+
+             <input type="radio" id="rate4" name="rate" value="star4">
+            <label for="rate4">⭐</label>
+
+             <input type="radio" id="rate5" name="rate" value="star5">
+            <label for="rate5">⭐</label>
+
+            <br>
+            <textarea id="review" name="review" placeholder="" rows="5" cols="40">write a review here</textarea>   
+            <br>
+
+            <input type="submit" id="submit" name="submit" value="submit">
+            <br>
+
+           for movie review tips, click <a href="" target="_blank">here</a>
+        </form>
+    </section>
+    
+    <!--Reference 
+    Nyfa, & Nyfa. (2024, March 23). How to write a movie review: 10 essential tips. NYFA. https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/
+    -->
+</body>
+</html>
